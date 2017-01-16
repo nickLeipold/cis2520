@@ -1,0 +1,44 @@
+/*Nickolas Leipold
+nleipold@mail.uoguelph.ca
+0930626
+Assignment 2
+cis*2520
+car dealership and reverse polish notation
+*/
+/*******Compilation*****************
+
+go to root src folder in assignment
+type "make" to compile the program
+type "make clean" to remove executables
+
+*******Usage*************************
+
+./q1.out will run the car dealership program
+./q2.out 'argument' will run the reverse polish notation
+
+**********Testing********************
+14+32+*
+14+32-*
+15+42-*
+15+43+/
+
+
+*************Known Limitations**************
+
+-doesnt read from exeternal file, writes to it though
+-the same limitations specified in the assignment discription 
+-does not return to available list in order
+-some invalid input will crash the program
+-polish can be a max length of 128
+
+
+
+*************References*****************************
+
+Lectures
+man pages
+previous assignments in cis 2500 from myself such as the linkedList library as well as the openFile library
+labs
+www.thecrazyprogrammer.com%2F2014%2F02%2Fc-program-and-algorithm-for-evaluation-of-a-postfix-expression.html
+
+*/

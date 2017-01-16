@@ -1,0 +1,43 @@
+/*Nickolas Leipold
+nleipold@mail.uoguelph.ca
+0930626
+Assignment 4
+cis*2520
+AVL tree
+*/
+/*******Compilation*****************
+
+go to root src folder in assignment
+type "make" to compile the program
+type "make clean" to remove executables
+
+*******Usage*************************
+
+./main will run the program, no other needed comand line arguments
+
+**********Testing********************
+input.dat (test file we were given )
+
+0 1 2 3 7 8 9 4 5 6
+
+
+*************Known Limitations**************
+
+-rebalancing when the root node is deleted malfunctions
+-max file line length of 500
+-other character array length maxes throught program, they are all set within reasonable lengths
+- takes about 2 minutes to create AVL tree with provided input.dat
+
+
+
+
+
+*************References*****************************
+
+Lectures
+man pages
+previous assignments in cis 2500 from myself ,the openFile library
+labs
+Literally only used class stuff, from the sudocode he gave and talking through it myself
+
+*/

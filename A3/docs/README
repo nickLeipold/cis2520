@@ -1,0 +1,53 @@
+/*Nickolas Leipold
+nleipold@mail.uoguelph.ca
+0930626
+Assignment 3
+cis*2520
+equation tree and array heap
+*/
+/*******Compilation*****************
+
+go to root src folder in assignment
+type "make" to compile the program
+type "make clean" to remove executables
+
+*******Usage*************************
+
+./q1.out will run the arethmetic tree such that the argument is formatted as 
+  speciied in the assignment and inside brackets ex. ./q1.out "((1+2)-(3+4))"
+  
+./q2.out (11th item in array is the key, to reveal change print j value to 11)
+
+**********Testing********************
+q1
+(((1+2)+(3+4))/3)
+(1+(2*3))
+etc.
+(x1 +(3-4))
+
+q2
+given test file
+
+
+*************Known Limitations**************
+q1
+-a variable name must be less than 10 characters long
+-limitations specified in the assignment outline
+-if there is an incorrect number of brackets it wont work
+-if the variable is not given a value it is equated to zero
+
+q2
+-f.dat mut be in the assets folder
+-must be the format specified in the assignment
+
+
+
+*************References*****************************
+
+Lectures
+man pages
+previous assignments in cis 2500 from myself ,the openFile library
+labs
+http://stackoverflow.com/questions/3305321/tutorial-for-tree-data-structure-in-c
+
+*/
